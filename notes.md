@@ -1,0 +1,13 @@
+- Ramfs is memory mapped file
+  - Never need to read from disk only read in memory
+  - Uses Linux file buffer cache
+  - Runs on ram
+- Tempfs
+  - Mostly same as ramfs
+  - Can be swapped out if we you run into resource issues 
+- Duckdb
+  - Memory based SQL engine
+  - Good for data analysis and hacking around
+  - Uses every core you have by
+- Postgres
+- Takes the longest
